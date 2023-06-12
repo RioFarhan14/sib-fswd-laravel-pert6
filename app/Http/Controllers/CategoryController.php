@@ -17,7 +17,7 @@ class CategoryController extends Controller
 
     public function create()
     {
-        return view('category.create');
+        return view('Category.create');
     }
 
     public function store(Request $request)
